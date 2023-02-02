@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 900px;
+    min-width: 300px;
+    border: 1px solid black;
+}
+
+header {
+    background-color: black;
+    border: 1px solid black;
+    padding: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    padding-bottom: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 7px;
+}
+
+section a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+
+
