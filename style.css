@@ -15,32 +15,61 @@ main {
     margin: auto;
     max-width: 900px;
     min-width: 300px;
-    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 header {
     background-color: black;
-    border: 1px solid black;
-    padding: 50px;
-    margin-bottom: 20px;
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+    font-size: 2.5em;
     text-align: center;
     color: white;
 }
 
-section {
-    padding-bottom: 30px;
-    padding: 10px;
-    margin-bottom: 20px;
+.normal {
+    background-color: white;
+    padding-bottom: 40px;
+    text-indent: 10px;
+    margin-top: 10px;
 }
 
-section p {
-    margin-bottom: 7px;
+.normal a {
+    padding-left: 10px;
+    display: inline-block;
+    margin-top: 5px;
 }
 
-section a {
-    text-decoration: none;
-    margin-left: 10px;
+.fundo {
+    background-color: black;
+    margin: -10px;
 }
+
+.imagem {
+    max-width: 400px;
+}
+
+.imagem section {
+    padding-bottom: 40px;
+}
+
+.imagem p {
+    color: white;
+    text-indent: 10px;
+}
+
+.imagem a {
+    padding-left: 20px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
 
 
 
